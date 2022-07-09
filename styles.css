@@ -549,13 +549,14 @@ img {
   border: 1px solid transparent;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
+  /* grid-template-rows: repeat(2,300px); */
   grid-gap: 50px;
   text-align: center;
   align-items: center;
   align-items: center;
 }
 
-@media only screen and (min-width: 376px) and (max-width: 425px) {
+/* @media only screen and (min-width: 376px) and (max-width: 425px) {
   .skills {
     margin: auto;
     border: 1px solid transparent;
@@ -563,7 +564,7 @@ img {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
   }
-}
+} */
 
 .logo_div {
   border: 1px solid transparent;
