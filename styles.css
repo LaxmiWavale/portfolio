@@ -548,7 +548,7 @@ img {
   align-items: center;
 }
 
-.skills {
+#skills {
   margin: auto;
   max-width: 1024px;
   border: 1px solid transparent;
@@ -562,7 +562,7 @@ img {
 }
 
 @media only screen and (min-width: 376px) and (max-width: 425px) {
-  .skills {
+  #skills {
     margin: auto;
     border: 1px solid transparent;
     display: grid;
@@ -571,7 +571,7 @@ img {
   }
 }
 @media only screen and (min-width: 428px) and (max-width: 705px) {
-  .skills {
+  #skills {
     margin: auto;
     border: 1px solid transparent;
     display: grid;
