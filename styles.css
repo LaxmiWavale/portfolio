@@ -355,7 +355,7 @@ img {
 
 /* ===== WORK =====*/
 .work__container {
-  row-gap: 2rem;
+  /* row-gap: 2rem; */
 }
 
 .work__img {
@@ -371,7 +371,15 @@ img {
 .work__img img:hover {
   transform: scale(1.1);
 }
-
+#projects{
+  margin-top: 35px;
+  padding: 20px 20px 5px 20px;
+  background-color: #e2a6bf;
+  color: black;
+}
+#techStack{
+  margin-top: -20px;
+}
 /* ===== CONTACT =====*/
 .contact__input {
   width: 100%;
@@ -460,8 +468,8 @@ img {
     column-gap: 1rem;
   }
   .work__container {
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 2rem;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 2rem;
     padding-top: 2rem;
   }
   .contact__form {
@@ -525,8 +533,8 @@ img {
     text-align: initial;
   }
   .work__container {
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 2rem;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 2rem;
   }
 }
 
