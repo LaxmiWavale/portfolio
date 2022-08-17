@@ -9,7 +9,7 @@
   /* HSL color mode */
   --hue-color: 224;
   /* --first-color: hsl(var(--hue-color), 89%, 60%); */
-  --first-color:#e2a6bf;
+  --first-color:#ffd600;
   --second-color: hsl(var(--hue-color), 56%, 12%);
   
   /*===== Fuente y tipografia =====*/
@@ -374,7 +374,7 @@ img {
 #projects{
   margin-top: 35px;
   padding: 20px 20px 5px 20px;
-  background-color: #e2a6bf;
+  background-color: #ffd600;
   color: black;
 }
 #techStack{
