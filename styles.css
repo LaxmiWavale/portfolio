@@ -10,8 +10,8 @@
   --hue-color: 224;
   /* --first-color: hsl(var(--hue-color), 89%, 60%); */
   --first-color:#6e71cc;
-  --second-color: hsl(var(--hue-color), 56%, 12%);
-  
+  /* --second-color: hsl(var(--hue-color), 56%, 12%); */
+  --second-color:white;
   /*===== Fuente y tipografia =====*/
   --body-font: "Poppins", sans-serif;
   --big-font-size: 2rem;
@@ -27,7 +27,9 @@
   --z-back: -10;
   --z-fixed: 100;
 }
-
+body{
+  background-color: black;
+}
 @media screen and (min-width: 968px) {
   :root {
     --big-font-size: 3.5rem;
@@ -118,8 +120,9 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #fff;
+  background-color: #080808;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+  color: white;
 }
 
 /*===== NAV =====*/
@@ -421,16 +424,18 @@ img {
 
 /* ===== FOOTER =====*/
 .footer {
-  background-color: var(--first-color);
+  background-color:black;
   color: rgb(12, 11, 11);
   text-align: center;
   font-weight: var(--font-semi);
-  padding: 2rem 0;
+  padding: 0.2rem 0;
 }
 
 .footer__title {
   font-size: 2rem;
   margin-bottom: var(--mb-4);
+  
+  color: #6e71cc;
 }
 
 .footer__social {
@@ -438,9 +443,9 @@ img {
 }
 
 .footer__icon {
-  font-size: 1.5rem;
-  color: rgb(8, 6, 6);
-  margin: 0 var(--mb-2);
+  font-size: 3rem;
+  color: #fff;
+  /* margin: 0 var(--mb-2); */
 }
 
 .footer__copy {
@@ -588,7 +593,9 @@ img {
   align-items: center;
   align-items: center;
 }
-
+#skills>a{
+  color: white;
+}
 @media only screen and (min-width: 376px) and (max-width: 425px) {
   #skills {
     margin: auto;
